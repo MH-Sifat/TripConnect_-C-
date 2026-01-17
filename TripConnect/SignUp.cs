@@ -128,5 +128,10 @@ namespace TripConnect
                 PassTextBox.UseSystemPasswordChar = true;
             }
         }
+
+        private void SignUp_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

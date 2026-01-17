@@ -81,8 +81,21 @@ namespace TripConnect
                        MessageBox.Show("Login successful!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                        this.Hide();
 
-                       Home h1 = new Home(userId, role);
-                       h1.Show(); 
+                        /*  Home h1 = new Home(userId, role);
+                          h1.Show(); */
+                        // ROLE BASED REDIRECTION
+                        if (role.Equals("Admin", StringComparison.OrdinalIgnoreCase))
+                        {
+                            this.Hide();
+                            AdminDashBoard admin = new AdminDashBoard(userId, role);
+                            admin.Show();
+                        }
+                        else
+                        {
+                            this.Hide();
+                            Home h1 = new Home(userId, role);
+                            h1.Show();
+                        }
 
                     }
 

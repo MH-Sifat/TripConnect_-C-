@@ -46,6 +46,72 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminDashBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminDashBoard.Designer.cs">
+      <DependentUpon>AdminDashBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminDashBoardAddTourSpots.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminDashBoardAddTourSpots.Designer.cs">
+      <DependentUpon>AdminDashBoardAddTourSpots.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminDashBoardTourists.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminDashBoardTourists.Designer.cs">
+      <DependentUpon>AdminDashBoardTourists.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateGroup.Designer.cs">
+      <DependentUpon>CreateGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DashBoardFinishedTrip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DashBoardFinishedTrip.Designer.cs">
+      <DependentUpon>DashBoardFinishedTrip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DashBoardGuideRequests.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DashBoardGuideRequests.Designer.cs">
+      <DependentUpon>DashBoardGuideRequests.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DashBoardJoinedGroups.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DashBoardJoinedGroups.Designer.cs">
+      <DependentUpon>DashBoardJoinedGroups.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DashBoardMyGroups.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DashBoardMyGroups.Designer.cs">
+      <DependentUpon>DashBoardMyGroups.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GuideDashBoardAcceptReq.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GuideDashBoardAcceptReq.Designer.cs">
+      <DependentUpon>GuideDashBoardAcceptReq.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GuideDashBoardFinishedTrip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GuideDashBoardFinishedTrip.Designer.cs">
+      <DependentUpon>GuideDashBoardFinishedTrip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GuideDashBoardSentReq.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GuideDashBoardSentReq.Designer.cs">
+      <DependentUpon>GuideDashBoardSentReq.cs</DependentUpon>
+    </Compile>
     <Compile Include="Profile.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,6 +143,63 @@
     <Compile Include="SignUp.Designer.cs">
       <DependentUpon>SignUp.cs</DependentUpon>
     </Compile>
+    <Compile Include="TouristGroups.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TouristGroups.Designer.cs">
+      <DependentUpon>TouristGroups.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TG1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TG1.Designer.cs">
+      <DependentUpon>TG1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TouristSpots.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TouristSpots.Designer.cs">
+      <DependentUpon>TouristSpots.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TripNotes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TripNotes.Designer.cs">
+      <DependentUpon>TripNotes.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdminDashBoard.resx">
+      <DependentUpon>AdminDashBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminDashBoardAddTourSpots.resx">
+      <DependentUpon>AdminDashBoardAddTourSpots.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminDashBoardTourists.resx">
+      <DependentUpon>AdminDashBoardTourists.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateGroup.resx">
+      <DependentUpon>CreateGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DashBoardFinishedTrip.resx">
+      <DependentUpon>DashBoardFinishedTrip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DashBoardGuideRequests.resx">
+      <DependentUpon>DashBoardGuideRequests.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DashBoardJoinedGroups.resx">
+      <DependentUpon>DashBoardJoinedGroups.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DashBoardMyGroups.resx">
+      <DependentUpon>DashBoardMyGroups.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GuideDashBoardAcceptReq.resx">
+      <DependentUpon>GuideDashBoardAcceptReq.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GuideDashBoardFinishedTrip.resx">
+      <DependentUpon>GuideDashBoardFinishedTrip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GuideDashBoardSentReq.resx">
+      <DependentUpon>GuideDashBoardSentReq.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Profile.resx">
       <DependentUpon>Profile.cs</DependentUpon>
     </EmbeddedResource>
@@ -93,6 +216,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SignUp.resx">
       <DependentUpon>SignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TouristGroups.resx">
+      <DependentUpon>TouristGroups.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TG1.resx">
+      <DependentUpon>TG1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TouristSpots.resx">
+      <DependentUpon>TouristSpots.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TripNotes.resx">
+      <DependentUpon>TripNotes.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -116,9 +251,7 @@
   <ItemGroup>
     <None Include="Images\arrow.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="SpotImages\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="Images\tt.jpeg" />
   </ItemGroup>
