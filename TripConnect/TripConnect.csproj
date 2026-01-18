@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminDasBoardTourGroups.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminDasBoardTourGroups.Designer.cs">
+      <DependentUpon>AdminDasBoardTourGroups.cs</DependentUpon>
+    </Compile>
     <Compile Include="AdminDashBoard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -57,6 +63,12 @@
     </Compile>
     <Compile Include="AdminDashBoardAddTourSpots.Designer.cs">
       <DependentUpon>AdminDashBoardAddTourSpots.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminDashBoardGuides.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminDashBoardGuides.Designer.cs">
+      <DependentUpon>AdminDashBoardGuides.cs</DependentUpon>
     </Compile>
     <Compile Include="AdminDashBoardTourists.cs">
       <SubType>Form</SubType>
@@ -93,6 +105,12 @@
     </Compile>
     <Compile Include="DashBoardMyGroups.Designer.cs">
       <DependentUpon>DashBoardMyGroups.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForgetPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForgetPassword.Designer.cs">
+      <DependentUpon>ForgetPassword.cs</DependentUpon>
     </Compile>
     <Compile Include="GuideDashBoardAcceptReq.cs">
       <SubType>Form</SubType>
@@ -149,12 +167,6 @@
     <Compile Include="TouristGroups.Designer.cs">
       <DependentUpon>TouristGroups.cs</DependentUpon>
     </Compile>
-    <Compile Include="TG1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="TG1.Designer.cs">
-      <DependentUpon>TG1.cs</DependentUpon>
-    </Compile>
     <Compile Include="TouristSpots.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -167,11 +179,17 @@
     <Compile Include="TripNotes.Designer.cs">
       <DependentUpon>TripNotes.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AdminDasBoardTourGroups.resx">
+      <DependentUpon>AdminDasBoardTourGroups.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AdminDashBoard.resx">
       <DependentUpon>AdminDashBoard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AdminDashBoardAddTourSpots.resx">
       <DependentUpon>AdminDashBoardAddTourSpots.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminDashBoardGuides.resx">
+      <DependentUpon>AdminDashBoardGuides.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AdminDashBoardTourists.resx">
       <DependentUpon>AdminDashBoardTourists.cs</DependentUpon>
@@ -190,6 +208,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DashBoardMyGroups.resx">
       <DependentUpon>DashBoardMyGroups.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForgetPassword.resx">
+      <DependentUpon>ForgetPassword.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GuideDashBoardAcceptReq.resx">
       <DependentUpon>GuideDashBoardAcceptReq.cs</DependentUpon>
@@ -220,9 +241,6 @@
     <EmbeddedResource Include="TouristGroups.resx">
       <DependentUpon>TouristGroups.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TG1.resx">
-      <DependentUpon>TG1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="TouristSpots.resx">
       <DependentUpon>TouristSpots.cs</DependentUpon>
     </EmbeddedResource>
@@ -251,7 +269,9 @@
   <ItemGroup>
     <None Include="Images\arrow.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Images\2.jpeg" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="Images\tt.jpeg" />
   </ItemGroup>
@@ -263,6 +283,51 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Images\HOme.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Home Page.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Log.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Sign Up.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\SignUp.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\TourGrous.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\TG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Profile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\createGroup.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\TripMemories.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Hm.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\CrG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\HH.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\CG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Notes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\TNotes.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

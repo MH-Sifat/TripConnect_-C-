@@ -2,14 +2,17 @@ E:\C#\Final\TripConnect\TripConnect\bin\Debug\TripConnect.exe.config
 E:\C#\Final\TripConnect\TripConnect\bin\Debug\TripConnect.exe
 E:\C#\Final\TripConnect\TripConnect\bin\Debug\TripConnect.pdb
 E:\C#\Final\TripConnect\TripConnect\obj\Debug\TripConnect.csproj.AssemblyReference.cache
+E:\C#\Final\TripConnect\TripConnect\obj\Debug\TripConnect.AdminDasBoardTourGroups.resources
 E:\C#\Final\TripConnect\TripConnect\obj\Debug\TripConnect.AdminDashBoard.resources
 E:\C#\Final\TripConnect\TripConnect\obj\Debug\TripConnect.AdminDashBoardAddTourSpots.resources
+E:\C#\Final\TripConnect\TripConnect\obj\Debug\TripConnect.AdminDashBoardGuides.resources
 E:\C#\Final\TripConnect\TripConnect\obj\Debug\TripConnect.AdminDashBoardTourists.resources
 E:\C#\Final\TripConnect\TripConnect\obj\Debug\TripConnect.CreateGroup.resources
 E:\C#\Final\TripConnect\TripConnect\obj\Debug\TripConnect.DashBoardFinishedTrip.resources
 E:\C#\Final\TripConnect\TripConnect\obj\Debug\TripConnect.DashBoardGuideRequests.resources
 E:\C#\Final\TripConnect\TripConnect\obj\Debug\TripConnect.DashBoardJoinedGroups.resources
 E:\C#\Final\TripConnect\TripConnect\obj\Debug\TripConnect.DashBoardMyGroups.resources
+E:\C#\Final\TripConnect\TripConnect\obj\Debug\TripConnect.ForgetPassword.resources
 E:\C#\Final\TripConnect\TripConnect\obj\Debug\TripConnect.GuideDashBoardAcceptReq.resources
 E:\C#\Final\TripConnect\TripConnect\obj\Debug\TripConnect.GuideDashBoardFinishedTrip.resources
 E:\C#\Final\TripConnect\TripConnect\obj\Debug\TripConnect.GuideDashBoardSentReq.resources
@@ -19,7 +22,6 @@ E:\C#\Final\TripConnect\TripConnect\obj\Debug\TripConnect.LogIn.resources
 E:\C#\Final\TripConnect\TripConnect\obj\Debug\TripConnect.Properties.Resources.resources
 E:\C#\Final\TripConnect\TripConnect\obj\Debug\TripConnect.SignUp.resources
 E:\C#\Final\TripConnect\TripConnect\obj\Debug\TripConnect.TouristGroups.resources
-E:\C#\Final\TripConnect\TripConnect\obj\Debug\TripConnect.TG1.resources
 E:\C#\Final\TripConnect\TripConnect\obj\Debug\TripConnect.TouristSpots.resources
 E:\C#\Final\TripConnect\TripConnect\obj\Debug\TripConnect.TripNotes.resources
 E:\C#\Final\TripConnect\TripConnect\obj\Debug\TripConnect.csproj.GenerateResource.cache

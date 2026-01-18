@@ -51,10 +51,10 @@
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // SignUpPasscheckBox1
@@ -71,38 +71,43 @@
             // 
             // PassTextBox
             // 
+            this.PassTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PassTextBox.Location = new System.Drawing.Point(276, 462);
             this.PassTextBox.Name = "PassTextBox";
-            this.PassTextBox.Size = new System.Drawing.Size(278, 22);
+            this.PassTextBox.Size = new System.Drawing.Size(278, 27);
             this.PassTextBox.TabIndex = 48;
             this.PassTextBox.UseSystemPasswordChar = true;
             // 
             // textBox4
             // 
+            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox4.Location = new System.Drawing.Point(276, 389);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(278, 22);
+            this.textBox4.Size = new System.Drawing.Size(278, 27);
             this.textBox4.TabIndex = 47;
             // 
             // textBox3
             // 
+            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox3.Location = new System.Drawing.Point(276, 273);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(278, 22);
+            this.textBox3.Size = new System.Drawing.Size(278, 27);
             this.textBox3.TabIndex = 46;
             // 
             // textBox2
             // 
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.Location = new System.Drawing.Point(276, 208);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(278, 22);
+            this.textBox2.Size = new System.Drawing.Size(278, 27);
             this.textBox2.TabIndex = 45;
             // 
             // textBox1
             // 
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(276, 146);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(278, 22);
+            this.textBox1.Size = new System.Drawing.Size(278, 27);
             this.textBox1.TabIndex = 44;
             // 
             // label8
@@ -260,7 +265,7 @@
             this.button3.BackColor = System.Drawing.SystemColors.MenuText;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button3.Location = new System.Drawing.Point(701, 462);
+            this.button3.Location = new System.Drawing.Point(701, 237);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(232, 54);
             this.button3.TabIndex = 50;
@@ -293,7 +298,7 @@
             this.button5.BackColor = System.Drawing.Color.DimGray;
             this.button5.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.button5.Location = new System.Drawing.Point(701, 242);
+            this.button5.Location = new System.Drawing.Point(701, 313);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(232, 49);
             this.button5.TabIndex = 54;
@@ -306,7 +311,7 @@
             this.button6.BackColor = System.Drawing.Color.DarkGreen;
             this.button6.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.button6.Location = new System.Drawing.Point(701, 314);
+            this.button6.Location = new System.Drawing.Point(701, 385);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(232, 51);
             this.button6.TabIndex = 55;
@@ -319,13 +324,52 @@
             this.button7.BackColor = System.Drawing.Color.LavenderBlush;
             this.button7.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button7.Location = new System.Drawing.Point(701, 389);
+            this.button7.Location = new System.Drawing.Point(701, 460);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(232, 51);
             this.button7.TabIndex = 56;
             this.button7.Text = "Finised Trips";
             this.button7.UseVisualStyleBackColor = false;
             this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // button8
+            // 
+            this.button8.BackColor = System.Drawing.Color.DimGray;
+            this.button8.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.button8.Location = new System.Drawing.Point(701, 313);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(232, 49);
+            this.button8.TabIndex = 57;
+            this.button8.Text = "View Sent Requests";
+            this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
+            // 
+            // button9
+            // 
+            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.button9.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button9.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.button9.Location = new System.Drawing.Point(701, 387);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(232, 49);
+            this.button9.TabIndex = 58;
+            this.button9.Text = "Accepted Requests";
+            this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
+            // button10
+            // 
+            this.button10.BackColor = System.Drawing.Color.OrangeRed;
+            this.button10.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button10.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.button10.Location = new System.Drawing.Point(701, 462);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(232, 49);
+            this.button10.TabIndex = 59;
+            this.button10.Text = "Finished Trip";
+            this.button10.UseVisualStyleBackColor = false;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // button4
             // 
@@ -341,45 +385,6 @@
             this.button4.TabIndex = 51;
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // button8
-            // 
-            this.button8.BackColor = System.Drawing.Color.DimGray;
-            this.button8.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.button8.Location = new System.Drawing.Point(701, 242);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(232, 49);
-            this.button8.TabIndex = 57;
-            this.button8.Text = "View Sent Requests";
-            this.button8.UseVisualStyleBackColor = false;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
-            // 
-            // button9
-            // 
-            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.button9.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.button9.Location = new System.Drawing.Point(701, 316);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(232, 49);
-            this.button9.TabIndex = 58;
-            this.button9.Text = "Accepted Requests";
-            this.button9.UseVisualStyleBackColor = false;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
-            // 
-            // button10
-            // 
-            this.button10.BackColor = System.Drawing.Color.OrangeRed;
-            this.button10.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.button10.Location = new System.Drawing.Point(701, 391);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(232, 49);
-            this.button10.TabIndex = 59;
-            this.button10.Text = "Finished Trip";
-            this.button10.UseVisualStyleBackColor = false;
-            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // Profile
             // 
@@ -416,6 +421,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Profile";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);

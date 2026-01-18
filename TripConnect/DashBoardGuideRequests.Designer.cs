@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -42,6 +42,14 @@
             this.label1.Size = new System.Drawing.Size(200, 30);
             this.label1.TabIndex = 65;
             this.label1.Text = "Guide Requests";
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.AutoScroll = true;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(76, 88);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(876, 453);
+            this.flowLayoutPanel1.TabIndex = 66;
             // 
             // button4
             // 
@@ -58,14 +66,6 @@
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.AutoScroll = true;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(76, 88);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(876, 453);
-            this.flowLayoutPanel1.TabIndex = 66;
-            // 
             // DashBoardGuideRequests
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -76,6 +76,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button4);
             this.Name = "DashBoardGuideRequests";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DashBoardGuideRequests";
             this.ResumeLayout(false);
             this.PerformLayout();

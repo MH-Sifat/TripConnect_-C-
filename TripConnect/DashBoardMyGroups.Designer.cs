@@ -76,6 +76,7 @@
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.button4);
             this.Name = "DashBoardMyGroups";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DashBoardMyGroups";
             this.ResumeLayout(false);
             this.PerformLayout();

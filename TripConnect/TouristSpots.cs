@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -29,6 +30,8 @@ namespace TripConnect
             dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dataGridView1.MultiSelect = false;
         }
+
+        // Tourist spot details load
         private void FillDataGridView(string query)
         {
             using (SqlConnection con = new SqlConnection(connectionString))
@@ -40,14 +43,7 @@ namespace TripConnect
                     DataTable dataTable = new DataTable();
                     dataTable.Load(reader);
                     dataGridView1.DataSource = dataTable;
-
-                    /* dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
-                     dataGridView1.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
-                     dataGridView1.DefaultCellStyle.WrapMode = DataGridViewTriState.True;
-
-                     // Force resize after data load
-                     dataGridView1.AutoResizeColumns();
-                     dataGridView1.AutoResizeRows();*/
+                    dataGridView1.ReadOnly = true;
 
                     dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.None;
                     dataGridView1.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
@@ -64,10 +60,12 @@ namespace TripConnect
 
                     dataGridView1.Columns["Description"].AutoSizeMode =
                         DataGridViewAutoSizeColumnMode.Fill;
-
+                        
                 }
             }
         }
+
+        // search button
         private void button1_Click(object sender, EventArgs e)
         {
             string searchValue = richTextBox1.Text.Trim();
@@ -105,20 +103,17 @@ namespace TripConnect
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.Hide();
-
-            Home h1 = new Home(UserId, UserRole);
-            h1.Show();
+           // by mistake
         }
 
         private void label2_Click(object sender, EventArgs e)
         {
-
+            // by mistake
         }
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
-
+            // by mistake
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -130,7 +125,7 @@ namespace TripConnect
 
         private void TouristSpots_Load(object sender, EventArgs e)
         {
-            if (UserRole != "admin")
+            if (UserRole != "Admin")
             {
                 button3.Visible = false;
                 button4.Visible = false;
@@ -180,6 +175,23 @@ namespace TripConnect
             // Refresh DataGridView
             FillDataGridView("SELECT * FROM TouristSpots");
 
+        }
+
+        // Back Button
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            if (UserRole == "Admin")
+            {
+                AdminDashBoard a1 = new AdminDashBoard(UserId, UserRole);
+                a1.Show();
+            }
+            else
+            {
+                Home h1 = new Home(UserId, UserRole);
+                h1.Show();
+            }
         }
     }
 }

@@ -76,6 +76,7 @@
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.button4);
             this.Name = "DashBoardJoinedGroups";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DashBoardJoinedGroups";
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -23,28 +23,7 @@ namespace TripConnect
             InitializeComponent();
             this.UserId = userId;
             this.UserRole = role;
-            /* query = @" SELECT 
-                            tg.GroupID,
-                            creator.UserName AS CreatedBy,
-                            tg.Destination,
-                            tg.BudgetPerPerson,
-                            tg.TravelDate,
-                            tg.Status,
-                            guide.UserName AS GuideName,
-                            COUNT(gm.UserID) AS MemberCount,
-                            STRING_AGG(member.UserName, ', ') AS MemberNames
-                             FROM TourGroups tg
-                             JOIN Users creator ON tg.CreatedBy = creator.UserID
-                             LEFT JOIN Users guide ON tg.GuideID = guide.UserID
-                             LEFT JOIN GroupMembers gm ON tg.GroupID = gm.GroupID
-                             LEFT JOIN Users member ON gm.UserID = member.UserID
-                             GROUP BY tg.GroupID,
-                             creator.UserName,
-                             tg.Destination,
-                             tg.BudgetPerPerson,
-                             tg.TravelDate,
-                             tg.Status,
-                             guide.UserName"; */
+
             query = @"SELECT 
             tg.GroupID,
             creator.UserName AS CreatedBy,
@@ -250,64 +229,38 @@ namespace TripConnect
         {
             string searchValue = richTextBox1.Text.Trim();
 
-            /* string query = @"SELECT 
-             tg.GroupID,
-             creator.UserName AS CreatedBy,
-             tg.Destination,
-             tg.BudgetPerPerson,
-             tg.TravelDate,
-             tg.Status,
-             guide.UserName AS GuideName,
-             COUNT(gm.UserID) AS MemberCount,
-             STRING_AGG(member.UserName, ', ') AS MemberNames
-         FROM TourGroups tg
-         JOIN Users creator ON tg.CreatedBy = creator.UserID
-         LEFT JOIN Users guide ON tg.GuideID = guide.UserID
-         LEFT JOIN GroupMembers gm ON tg.GroupID = gm.GroupID
-         LEFT JOIN Users member ON gm.UserID = member.UserID
-         WHERE
-             tg.Destination LIKE @search
-             OR CAST(tg.GroupID AS NVARCHAR) LIKE @search
-             OR CAST(tg.BudgetPerPerson AS NVARCHAR) LIKE @search
-         GROUP BY 
-             tg.GroupID,
-             creator.UserName,
-             tg.Destination,
-             tg.BudgetPerPerson,
-             tg.TravelDate,
-             tg.Status,
-             guide.UserName";*/
-            string query = @"SELECT 
-    tg.GroupID,
-    creator.UserName AS CreatedBy,
-    tg.Destination,
-    tg.BudgetPerPerson,
-    tg.TravelDate,
-    tg.Status,
-    guide.UserName AS GuideName,
-    COUNT(gm.UserID) AS MemberCount,
-    STRING_AGG(member.UserName, ', ') AS MemberNames
-FROM TourGroups tg
-JOIN Users creator ON tg.CreatedBy = creator.UserID
-LEFT JOIN Users guide ON tg.GuideID = guide.UserID
-LEFT JOIN GroupMembers gm ON tg.GroupID = gm.GroupID
-LEFT JOIN Users member ON gm.UserID = member.UserID
-WHERE 
-    tg.Status <> 'Finished'
-    AND (
-        tg.Destination LIKE @search
-        OR CAST(tg.GroupID AS NVARCHAR) LIKE @search
-        OR CAST(tg.BudgetPerPerson AS NVARCHAR) LIKE @search
-    )
-GROUP BY 
-    tg.GroupID,
-    creator.UserName,
-    tg.Destination,
-    tg.BudgetPerPerson,
-    tg.TravelDate,
-    tg.Status,
-    guide.UserName";
 
+            string query = @"SELECT 
+                           tg.GroupID,
+                           creator.UserName AS CreatedBy,
+                           tg.Destination,
+                           tg.BudgetPerPerson,
+                           tg.TravelDate,
+                           tg.Status,
+                           guide.UserName AS GuideName,
+                           COUNT(gm.UserID) AS MemberCount,
+                           STRING_AGG(member.UserName, ', ') AS MemberNames
+                       FROM TourGroups tg
+                       JOIN Users creator ON tg.CreatedBy = creator.UserID
+                       LEFT JOIN Users guide ON tg.GuideID = guide.UserID
+                       LEFT JOIN GroupMembers gm ON tg.GroupID = gm.GroupID
+                       LEFT JOIN Users member ON gm.UserID = member.UserID
+                       WHERE 
+                           tg.Status <> 'Finished'
+                           AND (
+                            tg.Destination LIKE @search
+                               OR CAST(tg.GroupID AS NVARCHAR) LIKE @search
+                               OR CAST(tg.BudgetPerPerson AS NVARCHAR) LIKE @search
+                        )
+                       GROUP BY 
+                           tg.GroupID,
+                           creator.UserName,
+                           tg.Destination,
+                           tg.BudgetPerPerson,
+                           tg.TravelDate,
+                           tg.Status,
+                           guide.UserName";
+              
 
             flowLayoutPanel1.Controls.Clear();
 

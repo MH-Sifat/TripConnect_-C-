@@ -27,9 +27,16 @@ namespace TripConnect
         private void button4_Click(object sender, EventArgs e)
         {
             this.Hide();
-
-            Home h1 = new Home(UserId, UserRole);
-            h1.Show();
+            if (UserRole == "Admin")
+            {
+                AdminDashBoard a1 = new AdminDashBoard(UserId, UserRole);
+                a1.Show();
+            }
+            else
+            {
+                Home h1 = new Home(UserId, UserRole);
+                h1.Show();
+            }
         }
 
         private void TripNotes_Load(object sender, EventArgs e)

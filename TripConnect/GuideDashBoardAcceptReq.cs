@@ -33,16 +33,18 @@ namespace TripConnect
 
             using (SqlConnection con = new SqlConnection(connectionString))
             {
-                SqlCommand cmd = new SqlCommand(@"SELECT 
-                                                tg.GroupID,
-                                                tg.Destination,
-                                                tg.BudgetPerPerson,
-                                                tg.TravelDate,
-                                                tg.Status,
-                                                creator.UserName AS CreatedBy
-                                            FROM TourGroups tg
-                                            JOIN Users creator ON tg.CreatedBy = creator.UserID
-                                            WHERE tg.GuideID = @GuideID", con);
+                SqlCommand cmd = new SqlCommand(@" SELECT 
+                                                  tg.GroupID,
+                                                  tg.Destination,
+                                                  tg.BudgetPerPerson,
+                                                  tg.TravelDate,
+                                                  tg.Status,
+                                                  creator.UserName AS CreatedBy
+                                              FROM TourGroups tg
+                                              JOIN Users creator ON tg.CreatedBy = creator.UserID
+                                              WHERE 
+                                                  tg.GuideID = @GuideID
+                                                  AND tg.Status <> 'Finished'", con);
 
                 cmd.Parameters.AddWithValue("@GuideID", UserId);
 
@@ -147,42 +149,7 @@ namespace TripConnect
                 "Left Group", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
-        /*  private void LeaveGroup_Click(object sender, EventArgs e)
-          {
-              int groupId = Convert.ToInt32(((Button)sender).Tag);
-
-              DialogResult result = MessageBox.Show(
-                  "Are you sure you want to leave this group?",
-                  "Confirm",
-                  MessageBoxButtons.YesNo,
-                  MessageBoxIcon.Warning);
-
-              if (result != DialogResult.Yes) return;
-
-              using (SqlConnection con = new SqlConnection(connectionString))
-              {
-                  con.Open();
-
-                  // Remove guide from group
-                  SqlCommand cmd1 = new SqlCommand(
-                      "UPDATE TourGroups SET GuideID = NULL WHERE GroupID = @gid", con);
-                  cmd1.Parameters.AddWithValue("@gid", groupId);
-                  cmd1.ExecuteNonQuery();
-
-                  // Optional: update guide request status
-                  SqlCommand cmd2 = new SqlCommand(
-                      "UPDATE GuideRequests SET Status = 'Left' WHERE GroupID = @gid AND GuideUserID = @uid", con);
-                  cmd2.Parameters.AddWithValue("@gid", groupId);
-                  cmd2.Parameters.AddWithValue("@uid", UserId);
-                  cmd2.ExecuteNonQuery();
-              }
-
-              LoadAcceptedGroups();
-
-              MessageBox.Show("You have left the group successfully.",
-                  "Left Group", MessageBoxButtons.OK, MessageBoxIcon.Information);
-          }*/
-
+       
         private Label CreateLabel(string text, int y)
         {
             return new Label

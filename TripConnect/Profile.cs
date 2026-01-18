@@ -85,15 +85,38 @@ namespace TripConnect
                 button9.Visible = false;
                 button10.Visible = false;
             }
+            if(UserRole == "Admin")
+            {
+                button5.Visible = false;
+                button6.Visible = false;
+                button7.Visible = false;
+                button8.Visible = false;
+                button9.Visible = false;
+                button10.Visible = false;
+                label5.Visible = false;
+                label8.Visible = false;
+                radioButton1.Visible = false;
+                radioButton2.Visible = false;
+            }
+
+
         }
 
         // Back button
         private void button4_Click(object sender, EventArgs e)
         {
             this.Hide();
-
-            Home h1 = new Home(UserId, UserRole);
-            h1.Show();
+            if (UserRole == "Admin")
+            {
+                AdminDashBoard ad = new AdminDashBoard(UserId, UserRole);
+                ad.Show();
+            }
+            else
+            {
+               
+                Home h1 = new Home(UserId, UserRole);
+                h1.Show();
+            }
         }
 
         // myGroups button
@@ -186,40 +209,85 @@ namespace TripConnect
 
         private void button3_Click(object sender, EventArgs e)
         {
+        
             DialogResult result = MessageBox.Show(
-            "Are you sure you want to delete this profile?",
-             "Confirm Deletion",
-              MessageBoxButtons.YesNo,
-              MessageBoxIcon.Warning);
+        "Are you sure you want to delete this profile?\nThis action cannot be undone.",
+        "Confirm Deletion",
+        MessageBoxButtons.YesNo,
+        MessageBoxIcon.Warning);
 
+            if (result != DialogResult.Yes) return;
 
-            if (result == DialogResult.Yes)
+            using (SqlConnection con = new SqlConnection(connectionString))
             {
-                string query = "DELETE FROM Users WHERE UserId = @UserId";
+                con.Open();
+                SqlTransaction tran = con.BeginTransaction();
 
-                using (SqlConnection connection = new SqlConnection(connectionString))
+                try
                 {
-                    using (SqlCommand command = new SqlCommand(query, connection))
-                    {
-                        command.Parameters.AddWithValue("@UserId", UserId);
+                    // 1. Delete trip notes
+                    SqlCommand cmd1 = new SqlCommand(
+                        "DELETE FROM TripNotes WHERE UserID = @uid",
+                        con, tran);
+                    cmd1.Parameters.AddWithValue("@uid", UserId);
+                    cmd1.ExecuteNonQuery();
 
-                        connection.Open();
-                        int rowsAffected = command.ExecuteNonQuery();
+                    // 2. Delete group memberships
+                    SqlCommand cmd2 = new SqlCommand(
+                        "DELETE FROM GroupMembers WHERE UserID = @uid",
+                        con, tran);
+                    cmd2.Parameters.AddWithValue("@uid", UserId);
+                    cmd2.ExecuteNonQuery();
 
-                        if (rowsAffected > 0)
-                        {
-                            MessageBox.Show("Profile deleted successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                            Close();
-                        }
-                        else
-                        {
-                            MessageBox.Show("No profile was found to delete.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                        }
-                    }
+                    // 3. Delete guide requests
+                    SqlCommand cmd3 = new SqlCommand(
+                        "DELETE FROM GuideRequests WHERE GuideUserID = @uid",
+                        con, tran);
+                    cmd3.Parameters.AddWithValue("@uid", UserId);
+                    cmd3.ExecuteNonQuery();
+
+                    // 4. Remove guide from groups
+                    SqlCommand cmd4 = new SqlCommand(
+                        "UPDATE TourGroups SET GuideID = NULL WHERE GuideID = @uid",
+                        con, tran);
+                    cmd4.Parameters.AddWithValue("@uid", UserId);
+                    cmd4.ExecuteNonQuery();
+
+                    // 5. Delete groups created by user
+                    SqlCommand cmd5 = new SqlCommand(
+                        "DELETE FROM TourGroups WHERE CreatedBy = @uid",
+                        con, tran);
+                    cmd5.Parameters.AddWithValue("@uid", UserId);
+                    cmd5.ExecuteNonQuery();
+
+                    // 6. Finally delete user
+                    SqlCommand cmd6 = new SqlCommand(
+                        "DELETE FROM Users WHERE UserID = @uid",
+                        con, tran);
+                    cmd6.Parameters.AddWithValue("@uid", UserId);
+                    cmd6.ExecuteNonQuery();
+
+                    // Commit transaction
+                    tran.Commit();
+
+                    MessageBox.Show("Account deleted successfully!",
+                        "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                    Application.Exit(); // logout safely
+                }
+                catch (Exception ex)
+                {
+                    tran.Rollback();
+                    MessageBox.Show(
+                        "Error deleting account:\n" + ex.Message,
+                        "Error",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Error);
                 }
             }
 
         }
+
         // log out 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -254,6 +322,7 @@ namespace TripConnect
             d2.Show();
         }
 
+        // finished tour groups
         private void button7_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -261,6 +330,7 @@ namespace TripConnect
             d2.Show();
         }
 
+        // password hide and show
         private void SignUpPasscheckBox1_CheckedChanged(object sender, EventArgs e)
         {
             if (SignUpPasscheckBox1.Checked)
@@ -273,6 +343,7 @@ namespace TripConnect
             }
         }
 
+        // sent requests guide
         private void button8_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -280,13 +351,15 @@ namespace TripConnect
             g1.Show();
         }
 
+        // guide Accepted requests
         private void button9_Click(object sender, EventArgs e)
         {
             this.Hide();
             GuideDashBoardAcceptReq g2 = new GuideDashBoardAcceptReq(UserId, UserRole);
             g2.Show();
         }
-
+        
+        // Guide  Finished Trips
         private void button10_Click(object sender, EventArgs e)
         {
             this.Hide();

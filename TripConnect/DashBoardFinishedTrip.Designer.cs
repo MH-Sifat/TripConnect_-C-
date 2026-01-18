@@ -76,6 +76,7 @@
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.button4);
             this.Name = "DashBoardFinishedTrip";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DashBoardFinishedTrip";
             this.ResumeLayout(false);
             this.PerformLayout();

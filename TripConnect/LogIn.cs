@@ -121,5 +121,13 @@ namespace TripConnect
             s1.Show();
 
         }
+
+        // Forget Password
+        private void button3_Click(object sender, EventArgs e)
+        {
+            
+            ForgetPassword fp = new ForgetPassword();
+            fp.ShowDialog(); 
+        }
     }
 }
