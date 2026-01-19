@@ -11,6 +11,13 @@ using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.ProgressBar;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
+// Admin account : admin@gmail.com 
+// pass: admin
+// Tourist account: tourist@gmail.com
+// pass: tourist
+// Guide account: guide@gmail.com
+// pass: guide
+
 namespace TripConnect
 {
     public partial class LogIn : Form

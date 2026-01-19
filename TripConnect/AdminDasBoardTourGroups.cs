@@ -29,29 +29,28 @@ namespace TripConnect
         {
             using (SqlConnection con = new SqlConnection(connectionString))
             {
-                string query = @"
-            SELECT 
-                tg.GroupID,
-                tg.Destination,
-                tg.TravelDate,
-                tg.BudgetPerPerson,
-                tg.Status,
-                creator.UserName AS CreatedBy,
-                ISNULL(guide.UserName, 'No Guide') AS GuideName,
-                COUNT(gm.UserID) AS MemberCount
-            FROM TourGroups tg
-            JOIN Users creator ON tg.CreatedBy = creator.UserID
-            LEFT JOIN Users guide ON tg.GuideID = guide.UserID
-            LEFT JOIN GroupMembers gm ON tg.GroupID = gm.GroupID
-            GROUP BY 
-                tg.GroupID,
-                tg.Destination,
-                tg.TravelDate,
-                tg.BudgetPerPerson,
-                tg.Status,
-                creator.UserName,
-                guide.UserName
-            ORDER BY tg.GroupID DESC";
+                string query = @"SELECT 
+                              tg.GroupID,
+                              tg.Destination,
+                              tg.TravelDate,
+                              tg.BudgetPerPerson,
+                              tg.Status,
+                              creator.UserName AS CreatedBy,
+                              ISNULL(guide.UserName, 'No Guide') AS GuideName,
+                              COUNT(gm.UserID) AS MemberCount
+                          FROM TourGroups tg
+                          JOIN Users creator ON tg.CreatedBy = creator.UserID
+                          LEFT JOIN Users guide ON tg.GuideID = guide.UserID
+                          LEFT JOIN GroupMembers gm ON tg.GroupID = gm.GroupID
+                          GROUP BY 
+                              tg.GroupID,
+                              tg.Destination,
+                              tg.TravelDate,
+                              tg.BudgetPerPerson,
+                              tg.Status,
+                              creator.UserName,
+                              guide.UserName
+                          ORDER BY tg.GroupID DESC";
 
                 SqlDataAdapter da = new SqlDataAdapter(query, con);
                 DataTable dt = new DataTable();

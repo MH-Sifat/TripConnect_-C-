@@ -3,6 +3,126 @@
   "WorkspaceRootPath": "E:\\C#\\Final\\TripConnect\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\admindashboardguides.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\admindashboardguides.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\admindashboardguides.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\admindashboardguides.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\admindashboardtourists.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\admindashboardtourists.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\admindashboardtourists.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\admindashboardtourists.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|e:\\c#\\final\\tripconnect\\tripconnect\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\touristgroups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\touristgroups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\touristgroups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\touristgroups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\admindashboardaddtourspots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\admindashboardaddtourspots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\admindasboardtourgroups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\admindasboardtourgroups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\dashboardmygroups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\dashboardmygroups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\guidedashboardacceptreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\guidedashboardacceptreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\guidedashboardfinishedtrip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\guidedashboardfinishedtrip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\guidedashboardsentreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\guidedashboardsentreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\admindasboardtourgroups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\admindasboardtourgroups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\profile.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\profile.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\home.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\home.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\login.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\login.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\signup.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\signup.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\signup.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\signup.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\touristspots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\touristspots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,24 +131,12 @@
       "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\touristspots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|e:\\c#\\final\\tripconnect\\tripconnect\\admindasboardtourgroups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\admindasboardtourgroups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\tripnotes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\tripnotes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|e:\\c#\\final\\tripconnect\\tripconnect\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\admindashboardaddtourspots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\admindashboardaddtourspots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|e:\\c#\\final\\tripconnect\\tripconnect\\admindashboardguides.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\admindashboardguides.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\admindashboardtourists.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\admindashboardtourists.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\tripnotes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\tripnotes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\creategroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -47,100 +155,16 @@
       "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\dashboardjoinedgroups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\dashboardmygroups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\dashboardmygroups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|e:\\c#\\final\\tripconnect\\tripconnect\\forgetpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\forgetpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\forgetpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\guidedashboardacceptreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\guidedashboardacceptreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\guidedashboardfinishedtrip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\guidedashboardfinishedtrip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\guidedashboardsentreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\guidedashboardsentreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\touristgroups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\touristgroups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\touristgroups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\touristgroups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\tripnotes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\tripnotes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\tripnotes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\tripnotes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|e:\\c#\\final\\tripconnect\\tripconnect\\forgetpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\forgetpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\forgetpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|e:\\c#\\final\\tripconnect\\tripconnect\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|e:\\c#\\final\\tripconnect\\tripconnect\\admindashboardtourists.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\admindashboardtourists.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|e:\\c#\\final\\tripconnect\\tripconnect\\admindashboardguides.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\admindashboardguides.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\admindashboardaddtourspots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\admindashboardaddtourspots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|e:\\c#\\final\\tripconnect\\tripconnect\\admindasboardtourgroups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\admindasboardtourgroups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\guidedashboardacceptreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -173,89 +197,20 @@
     {
       "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\creategroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\creategroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\signup.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\signup.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|E:\\C#\\Final\\TripConnect\\tripconnect\\signup.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3098879-A3F3-44AF-9082-823845D7B8B8}|TripConnect\\TripConnect.csproj|solutionrelative:tripconnect\\signup.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
+          "DockedHeight": 200,
           "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AdminDashBoard.cs [Design]",
-              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\AdminDashBoard.cs",
-              "RelativeDocumentMoniker": "TripConnect\\AdminDashBoard.cs",
-              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\AdminDashBoard.cs [Design]",
-              "RelativeToolTip": "TripConnect\\AdminDashBoard.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T20:55:10.651Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AdminDasBoardTourGroups.cs [Design]",
-              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\AdminDasBoardTourGroups.cs",
-              "RelativeDocumentMoniker": "TripConnect\\AdminDasBoardTourGroups.cs",
-              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\AdminDasBoardTourGroups.cs [Design]",
-              "RelativeToolTip": "TripConnect\\AdminDasBoardTourGroups.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T10:26:03.078Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TouristSpots.cs [Design]",
-              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\TouristSpots.cs",
-              "RelativeDocumentMoniker": "TripConnect\\TouristSpots.cs",
-              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\TouristSpots.cs [Design]",
-              "RelativeToolTip": "TripConnect\\TouristSpots.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T18:15:54.266Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TouristSpots.cs",
-              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\TouristSpots.cs",
-              "RelativeDocumentMoniker": "TripConnect\\TouristSpots.cs",
-              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\TouristSpots.cs",
-              "RelativeToolTip": "TripConnect\\TouristSpots.cs",
-              "ViewState": "AgIAAIwAAAAAAAAAAAASwJ8AAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T12:55:06.034Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AdminDashBoardAddTourSpots.cs [Design]",
-              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\AdminDashBoardAddTourSpots.cs",
-              "RelativeDocumentMoniker": "TripConnect\\AdminDashBoardAddTourSpots.cs",
-              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\AdminDashBoardAddTourSpots.cs [Design]",
-              "RelativeToolTip": "TripConnect\\AdminDashBoardAddTourSpots.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T21:28:05.189Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "AdminDashBoardGuides.cs [Design]",
               "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\AdminDashBoardGuides.cs",
               "RelativeDocumentMoniker": "TripConnect\\AdminDashBoardGuides.cs",
@@ -267,165 +222,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AdminDashBoardTourists.cs [Design]",
-              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\AdminDashBoardTourists.cs",
-              "RelativeDocumentMoniker": "TripConnect\\AdminDashBoardTourists.cs",
-              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\AdminDashBoardTourists.cs [Design]",
-              "RelativeToolTip": "TripConnect\\AdminDashBoardTourists.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "AdminDashBoardGuides.cs",
+              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\AdminDashBoardGuides.cs",
+              "RelativeDocumentMoniker": "TripConnect\\AdminDashBoardGuides.cs",
+              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\AdminDashBoardGuides.cs",
+              "RelativeToolTip": "TripConnect\\AdminDashBoardGuides.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAkwI0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T21:14:38.315Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CreateGroup.cs [Design]",
-              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\CreateGroup.cs",
-              "RelativeDocumentMoniker": "TripConnect\\CreateGroup.cs",
-              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\CreateGroup.cs [Design]",
-              "RelativeToolTip": "TripConnect\\CreateGroup.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T13:01:51.151Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DashBoardFinishedTrip.cs [Design]",
-              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\DashBoardFinishedTrip.cs",
-              "RelativeDocumentMoniker": "TripConnect\\DashBoardFinishedTrip.cs",
-              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\DashBoardFinishedTrip.cs [Design]",
-              "RelativeToolTip": "TripConnect\\DashBoardFinishedTrip.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T11:01:11.035Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DashBoardGuideRequests.cs [Design]",
-              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\DashBoardGuideRequests.cs",
-              "RelativeDocumentMoniker": "TripConnect\\DashBoardGuideRequests.cs",
-              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\DashBoardGuideRequests.cs [Design]",
-              "RelativeToolTip": "TripConnect\\DashBoardGuideRequests.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T19:34:58.527Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DashBoardJoinedGroups.cs [Design]",
-              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\DashBoardJoinedGroups.cs",
-              "RelativeDocumentMoniker": "TripConnect\\DashBoardJoinedGroups.cs",
-              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\DashBoardJoinedGroups.cs [Design]",
-              "RelativeToolTip": "TripConnect\\DashBoardJoinedGroups.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T10:26:53.369Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "DashBoardMyGroups.cs [Design]",
-              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\DashBoardMyGroups.cs",
-              "RelativeDocumentMoniker": "TripConnect\\DashBoardMyGroups.cs",
-              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\DashBoardMyGroups.cs [Design]",
-              "RelativeToolTip": "TripConnect\\DashBoardMyGroups.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T16:54:57.257Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ForgetPassword.cs [Design]",
-              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\ForgetPassword.cs",
-              "RelativeDocumentMoniker": "TripConnect\\ForgetPassword.cs",
-              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\ForgetPassword.cs [Design]",
-              "RelativeToolTip": "TripConnect\\ForgetPassword.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T15:57:48.568Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "GuideDashBoardAcceptReq.cs [Design]",
-              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\GuideDashBoardAcceptReq.cs",
-              "RelativeDocumentMoniker": "TripConnect\\GuideDashBoardAcceptReq.cs",
-              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\GuideDashBoardAcceptReq.cs [Design]",
-              "RelativeToolTip": "TripConnect\\GuideDashBoardAcceptReq.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T17:00:43.841Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "GuideDashBoardFinishedTrip.cs [Design]",
-              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\GuideDashBoardFinishedTrip.cs",
-              "RelativeDocumentMoniker": "TripConnect\\GuideDashBoardFinishedTrip.cs",
-              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\GuideDashBoardFinishedTrip.cs [Design]",
-              "RelativeToolTip": "TripConnect\\GuideDashBoardFinishedTrip.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T18:50:57.38Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "GuideDashBoardSentReq.cs [Design]",
-              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\GuideDashBoardSentReq.cs",
-              "RelativeDocumentMoniker": "TripConnect\\GuideDashBoardSentReq.cs",
-              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\GuideDashBoardSentReq.cs [Design]",
-              "RelativeToolTip": "TripConnect\\GuideDashBoardSentReq.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T16:22:30.651Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Home.cs",
-              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\Home.cs",
-              "RelativeDocumentMoniker": "TripConnect\\Home.cs",
-              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\Home.cs",
-              "RelativeToolTip": "TripConnect\\Home.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwCUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T12:04:20.124Z",
+              "WhenOpened": "2026-01-18T10:13:53.851Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Home.cs [Design]",
-              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\Home.cs",
-              "RelativeDocumentMoniker": "TripConnect\\Home.cs",
-              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\Home.cs [Design]",
-              "RelativeToolTip": "TripConnect\\Home.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T12:03:44.603Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "LogIn.cs",
-              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\LogIn.cs",
-              "RelativeDocumentMoniker": "TripConnect\\LogIn.cs",
-              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\LogIn.cs",
-              "RelativeToolTip": "TripConnect\\LogIn.cs",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAowFwAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T12:15:55.704Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 1,
               "Title": "LogIn.cs [Design]",
               "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\LogIn.cs",
               "RelativeDocumentMoniker": "TripConnect\\LogIn.cs",
@@ -437,20 +247,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Profile.cs",
-              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\Profile.cs",
-              "RelativeDocumentMoniker": "TripConnect\\Profile.cs",
-              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\Profile.cs",
-              "RelativeToolTip": "TripConnect\\Profile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "LogIn.cs",
+              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\LogIn.cs",
+              "RelativeDocumentMoniker": "TripConnect\\LogIn.cs",
+              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\LogIn.cs",
+              "RelativeToolTip": "TripConnect\\LogIn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-11T17:40:50.16Z",
+              "WhenOpened": "2026-01-06T12:15:55.704Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 4,
+              "Title": "AdminDashBoardTourists.cs",
+              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\AdminDashBoardTourists.cs",
+              "RelativeDocumentMoniker": "TripConnect\\AdminDashBoardTourists.cs",
+              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\AdminDashBoardTourists.cs",
+              "RelativeToolTip": "TripConnect\\AdminDashBoardTourists.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAK4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T07:29:41.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminDashBoardTourists.cs [Design]",
+              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\AdminDashBoardTourists.cs",
+              "RelativeDocumentMoniker": "TripConnect\\AdminDashBoardTourists.cs",
+              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\AdminDashBoardTourists.cs [Design]",
+              "RelativeToolTip": "TripConnect\\AdminDashBoardTourists.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T21:14:38.315Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminDashBoard.cs [Design]",
+              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\AdminDashBoard.cs",
+              "RelativeDocumentMoniker": "TripConnect\\AdminDashBoard.cs",
+              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\AdminDashBoard.cs [Design]",
+              "RelativeToolTip": "TripConnect\\AdminDashBoard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T20:55:10.651Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Profile.cs [Design]",
               "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\Profile.cs",
               "RelativeDocumentMoniker": "TripConnect\\Profile.cs",
@@ -462,108 +309,203 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "SignUp.cs",
-              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\SignUp.cs",
-              "RelativeDocumentMoniker": "TripConnect\\SignUp.cs",
-              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\SignUp.cs",
-              "RelativeToolTip": "TripConnect\\SignUp.cs",
-              "ViewState": "AgIAAG0AAAAAAAAAAAAhwBkAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T13:29:07.727Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "SignUp.cs [Design]",
-              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\SignUp.cs",
-              "RelativeDocumentMoniker": "TripConnect\\SignUp.cs",
-              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\SignUp.cs [Design]",
-              "RelativeToolTip": "TripConnect\\SignUp.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T02:54:49.748Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 8,
               "Title": "TouristGroups.cs",
               "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\TouristGroups.cs",
               "RelativeDocumentMoniker": "TripConnect\\TouristGroups.cs",
               "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\TouristGroups.cs",
               "RelativeToolTip": "TripConnect\\TouristGroups.cs",
-              "ViewState": "AgIAAIIAAAAAAAAAAAAkwBkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACQBAAAAAAAAAADwvzgBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T11:05:15.541Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-16T11:05:15.541Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 9,
               "Title": "TouristGroups.cs [Design]",
               "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\TouristGroups.cs",
               "RelativeDocumentMoniker": "TripConnect\\TouristGroups.cs",
               "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\TouristGroups.cs [Design]",
               "RelativeToolTip": "TripConnect\\TouristGroups.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T12:52:57.399Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-01-16T12:52:57.399Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "TripNotes.cs",
-              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\TripNotes.cs",
-              "RelativeDocumentMoniker": "TripConnect\\TripNotes.cs",
-              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\TripNotes.cs",
-              "RelativeToolTip": "TripConnect\\TripNotes.cs",
-              "ViewState": "AgIAAMEAAAAAAAAAAAAwwB0AAAAkAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "Home.cs",
+              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\Home.cs",
+              "RelativeDocumentMoniker": "TripConnect\\Home.cs",
+              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\Home.cs",
+              "RelativeToolTip": "TripConnect\\Home.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwCkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T15:20:57.932Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T12:04:20.124Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "TripNotes.cs [Design]",
-              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\TripNotes.cs",
-              "RelativeDocumentMoniker": "TripConnect\\TripNotes.cs",
-              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\TripNotes.cs [Design]",
-              "RelativeToolTip": "TripConnect\\TripNotes.cs [Design]",
+              "DocumentIndex": 11,
+              "Title": "Home.cs [Design]",
+              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\Home.cs",
+              "RelativeDocumentMoniker": "TripConnect\\Home.cs",
+              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\Home.cs [Design]",
+              "RelativeToolTip": "TripConnect\\Home.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T15:08:34.166Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-01-06T12:03:44.603Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 12,
               "Title": "AdminDashBoard.cs",
               "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\AdminDashBoard.cs",
               "RelativeDocumentMoniker": "TripConnect\\AdminDashBoard.cs",
               "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\AdminDashBoard.cs",
               "RelativeToolTip": "TripConnect\\AdminDashBoard.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwC8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-17T21:05:10.82Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "ForgetPassword.cs",
-              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\ForgetPassword.cs",
-              "RelativeDocumentMoniker": "TripConnect\\ForgetPassword.cs",
-              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\ForgetPassword.cs",
-              "RelativeToolTip": "TripConnect\\ForgetPassword.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAqwGQAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "AdminDashBoardAddTourSpots.cs [Design]",
+              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\AdminDashBoardAddTourSpots.cs",
+              "RelativeDocumentMoniker": "TripConnect\\AdminDashBoardAddTourSpots.cs",
+              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\AdminDashBoardAddTourSpots.cs [Design]",
+              "RelativeToolTip": "TripConnect\\AdminDashBoardAddTourSpots.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T16:00:24.089Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-17T21:28:05.189Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 14,
+              "Title": "AdminDasBoardTourGroups.cs [Design]",
+              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\AdminDasBoardTourGroups.cs",
+              "RelativeDocumentMoniker": "TripConnect\\AdminDasBoardTourGroups.cs",
+              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\AdminDasBoardTourGroups.cs [Design]",
+              "RelativeToolTip": "TripConnect\\AdminDasBoardTourGroups.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T10:26:03.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DashBoardMyGroups.cs [Design]",
+              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\DashBoardMyGroups.cs",
+              "RelativeDocumentMoniker": "TripConnect\\DashBoardMyGroups.cs",
+              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\DashBoardMyGroups.cs [Design]",
+              "RelativeToolTip": "TripConnect\\DashBoardMyGroups.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T16:54:57.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GuideDashBoardAcceptReq.cs [Design]",
+              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\GuideDashBoardAcceptReq.cs",
+              "RelativeDocumentMoniker": "TripConnect\\GuideDashBoardAcceptReq.cs",
+              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\GuideDashBoardAcceptReq.cs [Design]",
+              "RelativeToolTip": "TripConnect\\GuideDashBoardAcceptReq.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T17:00:43.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GuideDashBoardFinishedTrip.cs [Design]",
+              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\GuideDashBoardFinishedTrip.cs",
+              "RelativeDocumentMoniker": "TripConnect\\GuideDashBoardFinishedTrip.cs",
+              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\GuideDashBoardFinishedTrip.cs [Design]",
+              "RelativeToolTip": "TripConnect\\GuideDashBoardFinishedTrip.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T18:50:57.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GuideDashBoardSentReq.cs [Design]",
+              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\GuideDashBoardSentReq.cs",
+              "RelativeDocumentMoniker": "TripConnect\\GuideDashBoardSentReq.cs",
+              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\GuideDashBoardSentReq.cs [Design]",
+              "RelativeToolTip": "TripConnect\\GuideDashBoardSentReq.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T16:22:30.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AdminDasBoardTourGroups.cs",
+              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\AdminDasBoardTourGroups.cs",
+              "RelativeDocumentMoniker": "TripConnect\\AdminDasBoardTourGroups.cs",
+              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\AdminDasBoardTourGroups.cs",
+              "RelativeToolTip": "TripConnect\\AdminDasBoardTourGroups.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAswDgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T10:27:17.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Home.Designer.cs",
+              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\Home.Designer.cs",
+              "RelativeDocumentMoniker": "TripConnect\\Home.Designer.cs",
+              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\Home.Designer.cs",
+              "RelativeToolTip": "TripConnect\\Home.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T09:20:00.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SignUp.cs",
+              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\SignUp.cs",
+              "RelativeDocumentMoniker": "TripConnect\\SignUp.cs",
+              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\SignUp.cs",
+              "RelativeToolTip": "TripConnect\\SignUp.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAswBEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T13:29:07.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Profile.Designer.cs",
+              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\Profile.Designer.cs",
+              "RelativeDocumentMoniker": "TripConnect\\Profile.Designer.cs",
+              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\Profile.Designer.cs",
+              "RelativeToolTip": "TripConnect\\Profile.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T09:11:00.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Profile.cs",
+              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\Profile.cs",
+              "RelativeDocumentMoniker": "TripConnect\\Profile.cs",
+              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\Profile.cs",
+              "RelativeToolTip": "TripConnect\\Profile.cs",
+              "ViewState": "AgIAADUBAAAAAAAAAAAqwFQBAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T17:40:50.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "SignUp.cs [Design]",
+              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\SignUp.cs",
+              "RelativeDocumentMoniker": "TripConnect\\SignUp.cs",
+              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\SignUp.cs [Design]",
+              "RelativeToolTip": "TripConnect\\SignUp.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T02:54:49.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\Program.cs",
               "RelativeDocumentMoniker": "TripConnect\\Program.cs",
@@ -571,38 +513,172 @@
               "RelativeToolTip": "TripConnect\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T17:50:19.726Z",
+              "WhenOpened": "2026-01-18T17:50:19.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "LogIn.Designer.cs",
+              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\LogIn.Designer.cs",
+              "RelativeDocumentMoniker": "TripConnect\\LogIn.Designer.cs",
+              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\LogIn.Designer.cs",
+              "RelativeToolTip": "TripConnect\\LogIn.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T09:10:11.097Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "AdminDashBoardTourists.cs",
-              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\AdminDashBoardTourists.cs",
-              "RelativeDocumentMoniker": "TripConnect\\AdminDashBoardTourists.cs",
-              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\AdminDashBoardTourists.cs",
-              "RelativeToolTip": "TripConnect\\AdminDashBoardTourists.cs",
-              "ViewState": "AgIAAKoAAAAAAAAAAAAqwLMAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T07:29:41.375Z",
+              "DocumentIndex": 27,
+              "Title": "LogIn.resx",
+              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\LogIn.resx",
+              "RelativeDocumentMoniker": "TripConnect\\LogIn.resx",
+              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\LogIn.resx",
+              "RelativeToolTip": "TripConnect\\LogIn.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-01-19T09:13:00.791Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "SignUp.Designer.cs",
+              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\SignUp.Designer.cs",
+              "RelativeDocumentMoniker": "TripConnect\\SignUp.Designer.cs",
+              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\SignUp.Designer.cs",
+              "RelativeToolTip": "TripConnect\\SignUp.Designer.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T03:19:44.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "SignUp.resx",
+              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\SignUp.resx",
+              "RelativeDocumentMoniker": "TripConnect\\SignUp.resx",
+              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\SignUp.resx",
+              "RelativeToolTip": "TripConnect\\SignUp.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-01-07T02:54:40.271Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 32,
-              "Title": "AdminDashBoardGuides.cs",
-              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\AdminDashBoardGuides.cs",
-              "RelativeDocumentMoniker": "TripConnect\\AdminDashBoardGuides.cs",
-              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\AdminDashBoardGuides.cs",
-              "RelativeToolTip": "TripConnect\\AdminDashBoardGuides.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAtwDsAAAAMAAAAAAAAAA==",
+              "Title": "TripNotes.cs",
+              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\TripNotes.cs",
+              "RelativeDocumentMoniker": "TripConnect\\TripNotes.cs",
+              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\TripNotes.cs",
+              "RelativeToolTip": "TripConnect\\TripNotes.cs",
+              "ViewState": "AgIAALoAAAAAAAAAAAAcwMcAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T10:13:53.851Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-17T15:20:57.932Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 33,
+              "Title": "TripNotes.cs [Design]",
+              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\TripNotes.cs",
+              "RelativeDocumentMoniker": "TripConnect\\TripNotes.cs",
+              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\TripNotes.cs [Design]",
+              "RelativeToolTip": "TripConnect\\TripNotes.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T15:08:34.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "TouristSpots.cs",
+              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\TouristSpots.cs",
+              "RelativeDocumentMoniker": "TripConnect\\TouristSpots.cs",
+              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\TouristSpots.cs",
+              "RelativeToolTip": "TripConnect\\TouristSpots.cs",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAiwL4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T12:55:06.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "TouristSpots.cs [Design]",
+              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\TouristSpots.cs",
+              "RelativeDocumentMoniker": "TripConnect\\TouristSpots.cs",
+              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\TouristSpots.cs [Design]",
+              "RelativeToolTip": "TripConnect\\TouristSpots.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T18:15:54.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CreateGroup.cs [Design]",
+              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\CreateGroup.cs",
+              "RelativeDocumentMoniker": "TripConnect\\CreateGroup.cs",
+              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\CreateGroup.cs [Design]",
+              "RelativeToolTip": "TripConnect\\CreateGroup.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T13:01:51.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "DashBoardFinishedTrip.cs [Design]",
+              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\DashBoardFinishedTrip.cs",
+              "RelativeDocumentMoniker": "TripConnect\\DashBoardFinishedTrip.cs",
+              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\DashBoardFinishedTrip.cs [Design]",
+              "RelativeToolTip": "TripConnect\\DashBoardFinishedTrip.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T11:01:11.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "DashBoardGuideRequests.cs [Design]",
+              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\DashBoardGuideRequests.cs",
+              "RelativeDocumentMoniker": "TripConnect\\DashBoardGuideRequests.cs",
+              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\DashBoardGuideRequests.cs [Design]",
+              "RelativeToolTip": "TripConnect\\DashBoardGuideRequests.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T19:34:58.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "DashBoardJoinedGroups.cs [Design]",
+              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\DashBoardJoinedGroups.cs",
+              "RelativeDocumentMoniker": "TripConnect\\DashBoardJoinedGroups.cs",
+              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\DashBoardJoinedGroups.cs [Design]",
+              "RelativeToolTip": "TripConnect\\DashBoardJoinedGroups.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T10:26:53.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ForgetPassword.cs [Design]",
+              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\ForgetPassword.cs",
+              "RelativeDocumentMoniker": "TripConnect\\ForgetPassword.cs",
+              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\ForgetPassword.cs [Design]",
+              "RelativeToolTip": "TripConnect\\ForgetPassword.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T15:57:48.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ForgetPassword.cs",
+              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\ForgetPassword.cs",
+              "RelativeDocumentMoniker": "TripConnect\\ForgetPassword.cs",
+              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\ForgetPassword.cs",
+              "RelativeToolTip": "TripConnect\\ForgetPassword.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAqwGQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T16:00:24.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
               "Title": "AdminDashBoardAddTourSpots.cs",
               "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\AdminDashBoardAddTourSpots.cs",
               "RelativeDocumentMoniker": "TripConnect\\AdminDashBoardAddTourSpots.cs",
@@ -610,25 +686,11 @@
               "RelativeToolTip": "TripConnect\\AdminDashBoardAddTourSpots.cs",
               "ViewState": "AgIAADIAAAAAAAAAAAAnwB0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T21:33:24.604Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-17T21:33:24.604Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "AdminDasBoardTourGroups.cs",
-              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\AdminDasBoardTourGroups.cs",
-              "RelativeDocumentMoniker": "TripConnect\\AdminDasBoardTourGroups.cs",
-              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\AdminDasBoardTourGroups.cs",
-              "RelativeToolTip": "TripConnect\\AdminDasBoardTourGroups.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAYwEcAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T10:27:17.772Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 41,
               "Title": "GuideDashBoardAcceptReq.cs",
               "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\GuideDashBoardAcceptReq.cs",
               "RelativeDocumentMoniker": "TripConnect\\GuideDashBoardAcceptReq.cs",
@@ -636,12 +698,11 @@
               "RelativeToolTip": "TripConnect\\GuideDashBoardAcceptReq.cs",
               "ViewState": "AgIAACoAAAAAAAAAAAAYwDIAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T17:04:06.061Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-17T17:04:06.061Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 42,
               "Title": "DashBoardGuideRequests.cs",
               "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\DashBoardGuideRequests.cs",
               "RelativeDocumentMoniker": "TripConnect\\DashBoardGuideRequests.cs",
@@ -649,12 +710,11 @@
               "RelativeToolTip": "TripConnect\\DashBoardGuideRequests.cs",
               "ViewState": "AgIAAEEAAAAAAAAAAAAcwFMAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T19:49:06.873Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-17T19:49:06.873Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 43,
               "Title": "DashBoardMyGroups.cs",
               "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\DashBoardMyGroups.cs",
               "RelativeDocumentMoniker": "TripConnect\\DashBoardMyGroups.cs",
@@ -662,12 +722,11 @@
               "RelativeToolTip": "TripConnect\\DashBoardMyGroups.cs",
               "ViewState": "AgIAAP0AAAAAAAAAAAAUwBUBAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T16:58:30.054Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-16T16:58:30.054Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 44,
               "Title": "GuideDashBoardFinishedTrip.cs",
               "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\GuideDashBoardFinishedTrip.cs",
               "RelativeDocumentMoniker": "TripConnect\\GuideDashBoardFinishedTrip.cs",
@@ -675,12 +734,11 @@
               "RelativeToolTip": "TripConnect\\GuideDashBoardFinishedTrip.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAA1wBAAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T18:53:23.826Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-17T18:53:23.826Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 45,
               "Title": "GuideDashBoardSentReq.cs",
               "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\GuideDashBoardSentReq.cs",
               "RelativeDocumentMoniker": "TripConnect\\GuideDashBoardSentReq.cs",
@@ -688,12 +746,11 @@
               "RelativeToolTip": "TripConnect\\GuideDashBoardSentReq.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T16:30:16.51Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-17T16:30:16.51Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 46,
               "Title": "DashBoardJoinedGroups.cs",
               "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\DashBoardJoinedGroups.cs",
               "RelativeDocumentMoniker": "TripConnect\\DashBoardJoinedGroups.cs",
@@ -701,12 +758,11 @@
               "RelativeToolTip": "TripConnect\\DashBoardJoinedGroups.cs",
               "ViewState": "AgIAAKAAAAAAAAAAAAAuwLEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T10:31:18.713Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-17T10:31:18.713Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 47,
               "Title": "DashBoardFinishedTrip.cs",
               "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\DashBoardFinishedTrip.cs",
               "RelativeDocumentMoniker": "TripConnect\\DashBoardFinishedTrip.cs",
@@ -714,12 +770,11 @@
               "RelativeToolTip": "TripConnect\\DashBoardFinishedTrip.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T11:05:55.855Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-17T11:05:55.855Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 48,
               "Title": "CreateGroup.cs",
               "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\CreateGroup.cs",
               "RelativeDocumentMoniker": "TripConnect\\CreateGroup.cs",
@@ -727,33 +782,7 @@
               "RelativeToolTip": "TripConnect\\CreateGroup.cs",
               "ViewState": "AgIAAFcAAAAAAAAAAAAmwFsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T13:28:54.885Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "SignUp.resx",
-              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\SignUp.resx",
-              "RelativeDocumentMoniker": "TripConnect\\SignUp.resx",
-              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\SignUp.resx",
-              "RelativeToolTip": "TripConnect\\SignUp.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2026-01-07T02:54:40.271Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "SignUp.Designer.cs",
-              "DocumentMoniker": "E:\\C#\\Final\\TripConnect\\TripConnect\\SignUp.Designer.cs",
-              "RelativeDocumentMoniker": "TripConnect\\SignUp.Designer.cs",
-              "ToolTip": "E:\\C#\\Final\\TripConnect\\TripConnect\\SignUp.Designer.cs",
-              "RelativeToolTip": "TripConnect\\SignUp.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T03:19:44.657Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-16T13:28:54.885Z"
             }
           ]
         }
