@@ -33,22 +33,21 @@ namespace TripConnect
 
             using (SqlConnection con = new SqlConnection(connectionString))
             {
-                SqlCommand cmd = new SqlCommand(@"
-SELECT 
-    gr.RequestID,
-    tg.GroupID,
-    tg.Destination,
-    tg.BudgetPerPerson,
-    tg.TravelDate,
-    tg.Status AS GroupStatus,
-    creator.UserName AS CreatedBy,
-    gr.Status AS RequestStatus
-FROM GuideRequests gr
-JOIN TourGroups tg ON gr.GroupID = tg.GroupID
-JOIN Users creator ON tg.CreatedBy = creator.UserID
-WHERE 
-    gr.GuideUserID = @GuideUserID
-    AND gr.Status = 'Pending'", con);
+                SqlCommand cmd = new SqlCommand(@"SELECT 
+                                                gr.RequestID,
+                                                tg.GroupID,
+                                                tg.Destination,
+                                                tg.BudgetPerPerson,
+                                                tg.TravelDate,
+                                                tg.Status AS GroupStatus,
+                                                creator.UserName AS CreatedBy,
+                                                gr.Status AS RequestStatus
+                                            FROM GuideRequests gr
+                                            JOIN TourGroups tg ON gr.GroupID = tg.GroupID
+                                            JOIN Users creator ON tg.CreatedBy = creator.UserID
+                                            WHERE 
+                                                gr.GuideUserID = @GuideUserID
+                                                AND gr.Status = 'Pending'", con);
 
                 cmd.Parameters.AddWithValue("@GuideUserID", UserId);
 
@@ -61,7 +60,8 @@ WHERE
                 }
             }
         }
-
+         
+        // card design
         private Panel CreateRequestCard(SqlDataReader reader)
         {
             Panel panel = new Panel
@@ -103,6 +103,7 @@ WHERE
             return panel;
         }
 
+        // cancel sended request as guide
         private void CancelRequest_Click(object sender, EventArgs e)
         {
             int requestId = Convert.ToInt32(((Button)sender).Tag);
@@ -150,6 +151,7 @@ WHERE
             };
         }
 
+        // back button
         private void button4_Click(object sender, EventArgs e)
         {
             this.Hide();

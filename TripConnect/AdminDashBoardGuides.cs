@@ -92,7 +92,7 @@ namespace TripConnect
                     Exec(con, tran,
                         "DELETE FROM TripNotes WHERE UserID = @uid", selectedGuideId);
 
-                    // 2. Guide requests handled by guide
+                    // 2. Guide requests 
                     Exec(con, tran,
                         "DELETE FROM GuideRequests WHERE GuideUserID = @uid",
                         selectedGuideId);
@@ -128,7 +128,8 @@ namespace TripConnect
                 }
             }
         }
-        // Helper method
+       
+        // Helper method to delete
         private void Exec(SqlConnection con, SqlTransaction tran, string sql, int uid)
         {
             using (SqlCommand cmd = new SqlCommand(sql, con, tran))

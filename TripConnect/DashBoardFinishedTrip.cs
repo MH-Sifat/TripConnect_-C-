@@ -26,30 +26,30 @@ namespace TripConnect
             UserRole = role;
 
             query = @"SELECT DISTINCT
-    tg.GroupID,
-    tg.Destination,
-    tg.BudgetPerPerson,
-    tg.TravelDate,
-    tg.Status,
-    creator.UserName AS CreatedBy,
-    guide.UserName AS GuideName,
-    COUNT(gm2.UserID) AS MemberCount
-FROM TourGroups tg
-LEFT JOIN Users creator ON tg.CreatedBy = creator.UserID
-LEFT JOIN Users guide ON tg.GuideID = guide.UserID
-LEFT JOIN GroupMembers gm ON tg.GroupID = gm.GroupID
-LEFT JOIN GroupMembers gm2 ON tg.GroupID = gm2.GroupID
-WHERE 
-    tg.Status = 'Finished'
-    AND (tg.CreatedBy = @UserId OR gm.UserID = @UserId)
-GROUP BY
-    tg.GroupID,
-    tg.Destination,
-    tg.BudgetPerPerson,
-    tg.TravelDate,
-    tg.Status,
-    creator.UserName,
-    guide.UserName";
+                     tg.GroupID,
+                     tg.Destination,
+                     tg.BudgetPerPerson,
+                     tg.TravelDate,
+                     tg.Status,
+                     creator.UserName AS CreatedBy,
+                     guide.UserName AS GuideName,
+                     COUNT(gm2.UserID) AS MemberCount
+                 FROM TourGroups tg
+                 LEFT JOIN Users creator ON tg.CreatedBy = creator.UserID
+                 LEFT JOIN Users guide ON tg.GuideID = guide.UserID
+                 LEFT JOIN GroupMembers gm ON tg.GroupID = gm.GroupID
+                 LEFT JOIN GroupMembers gm2 ON tg.GroupID = gm2.GroupID
+                 WHERE 
+                     tg.Status = 'Finished'
+                     AND (tg.CreatedBy = @UserId OR gm.UserID = @UserId)
+                 GROUP BY
+                     tg.GroupID,
+                     tg.Destination,
+                     tg.BudgetPerPerson,
+                     tg.TravelDate,
+                     tg.Status,
+                     creator.UserName,
+                     guide.UserName";
 
 
             LoadFinishedTrips();
@@ -86,27 +86,7 @@ GROUP BY
             };
         }
 
-        private DataTable GetTripNotes(int groupId)
-        {
-            DataTable dt = new DataTable();
-
-            using (SqlConnection con = new SqlConnection(connectionString))
-            {
-                string query = @"SELECT NoteId, Content 
-                         FROM TripNotes 
-                         WHERE GroupID = @GroupID AND UserID = @UserID";
-
-                SqlCommand cmd = new SqlCommand(query, con);
-                cmd.Parameters.AddWithValue("@GroupID", groupId);
-                cmd.Parameters.AddWithValue("@UserID", UserId);
-
-                SqlDataAdapter da = new SqlDataAdapter(cmd);
-                da.Fill(dt);
-            }
-
-            return dt;
-        }
-
+        // card design
         private Panel CreatePostCard(SqlDataReader reader)
         {
             Panel panel = new Panel();
@@ -195,6 +175,7 @@ GROUP BY
             return panel;
         }
 
+        // load notes
         private void LoadUserNote(int groupId, TextBox txt)
         {
             using (SqlConnection con = new SqlConnection(connectionString))
@@ -210,6 +191,7 @@ GROUP BY
             }
         }
 
+        // save or update notes tourist
         private void SaveNote_Click(object sender, EventArgs e)
         {
             Button btn = sender as Button;
@@ -244,6 +226,7 @@ GROUP BY
             MessageBox.Show("Note saved successfully!");
         }
 
+        // delete notes tourist
         private void DeleteNote_Click(object sender, EventArgs e)
         {
             Button btn = sender as Button;
@@ -274,6 +257,7 @@ GROUP BY
         }
 
 
+        // back button
         private void button4_Click(object sender, EventArgs e)
         {
             this.Hide();

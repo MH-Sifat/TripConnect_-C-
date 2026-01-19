@@ -77,9 +77,8 @@ namespace TripConnect
 
                     connection.Open();
 
-                   // int count = (int)command.ExecuteScalar();
                     SqlDataReader reader = command.ExecuteReader();
-                    //count > 0 &&
+                    
                     if (reader.Read())
                     {
                         int userId = Convert.ToInt32(reader["UserID"]);
@@ -88,8 +87,7 @@ namespace TripConnect
                        MessageBox.Show("Login successful!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                        this.Hide();
 
-                        /*  Home h1 = new Home(userId, role);
-                          h1.Show(); */
+                        
                         // ROLE BASED REDIRECTION
                         if (role.Equals("Admin", StringComparison.OrdinalIgnoreCase))
                         {

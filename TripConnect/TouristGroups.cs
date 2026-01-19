@@ -56,6 +56,7 @@ namespace TripConnect
 
         }
 
+        // load tourist groups
         private void LoadTourGroups(string query)
         {
             flowLayoutPanel1.Controls.Clear();
@@ -74,6 +75,7 @@ namespace TripConnect
             }
         }
 
+        // design card
         private Panel CreatePostCard(SqlDataReader reader)
         {
             Panel panel = new Panel();
@@ -105,7 +107,7 @@ namespace TripConnect
             panel.Controls.Add(CreateLabel($"Guide: {reader["GuideName"]}", y)); y += 25;
             panel.Controls.Add(CreateLabel($"Status: {reader["Status"]}", y)); y += 30;
 
-            if (UserRole == "Tourist")
+            if (UserRole == "Tourist")  // show this for tourist
             {
                 Button btnJoin = new Button();
                 btnJoin.Text = "Join Group";
@@ -115,11 +117,11 @@ namespace TripConnect
                 btnJoin.Font = new Font("Modern No. 20", 16.2f, FontStyle.Bold);
                 btnJoin.BackColor = Color.SeaGreen;
                 btnJoin.ForeColor = Color.White;
-                btnJoin.Tag = reader["GroupID"]; // 👈 store GroupID
+                btnJoin.Tag = reader["GroupID"]; // store GroupID
                 btnJoin.Click += JoinGroup_Click;
                 panel.Controls.Add(btnJoin);
             }
-            if (UserRole == "Guide")
+            if (UserRole == "Guide")  // show this for guide
             {
                 Button btnReq = new Button();
                 btnReq.Text = "Send Request";
@@ -129,7 +131,7 @@ namespace TripConnect
                 btnReq.Font = new Font("Modern No. 20", 12.2f, FontStyle.Bold);
                 btnReq.BackColor = Color.Red;
                 btnReq.ForeColor = Color.White;
-                btnReq.Tag = reader["GroupID"]; // 👈 store GroupID
+                btnReq.Tag = reader["GroupID"]; // store GroupID
                 btnReq.Click += SendReuquest_Click;
 
                 panel.Controls.Add(btnReq);
@@ -138,6 +140,7 @@ namespace TripConnect
             return panel;
         }
 
+        // create label
         private Label CreateLabel(string text, int y)
         {
             return new Label()
@@ -148,6 +151,8 @@ namespace TripConnect
                 Font = new Font("Segoe UI", 12, FontStyle.Regular)
             };
         }
+
+        // join group as tourist
         private void JoinGroup_Click(object sender, EventArgs e)
         {
             Button btn = sender as Button;
@@ -184,6 +189,7 @@ namespace TripConnect
             LoadTourGroups(query); // refresh UI
         }
 
+        // send request as guide
         private void SendReuquest_Click(object sender, EventArgs e)
         {
             Button btn = sender as Button;
@@ -224,7 +230,7 @@ namespace TripConnect
             LoadTourGroups(query); // refresh 
         }
 
-        // search 
+        // search groups with destination, budget, group id
         private void button1_Click(object sender, EventArgs e)
         {
             string searchValue = richTextBox1.Text.Trim();
@@ -291,6 +297,7 @@ namespace TripConnect
             }
         }
 
+        // back button
         private void button4_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -301,11 +308,12 @@ namespace TripConnect
 
         private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
-
+            // by mistake
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
+            // by mistake
 
         }
     }

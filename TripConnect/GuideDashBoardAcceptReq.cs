@@ -27,6 +27,7 @@ namespace TripConnect
 
         }
 
+        // load accepted request groups of guide
         private void LoadAcceptedGroups()
         {
             flowLayoutPanel1.Controls.Clear();
@@ -58,6 +59,7 @@ namespace TripConnect
             }
         }
 
+        // card design
         private Panel CreateGroupCard(SqlDataReader reader)
         {
             Panel panel = new Panel
@@ -97,6 +99,7 @@ namespace TripConnect
             return panel;
         }
 
+        // guide leave group 
         private void LeaveGroup_Click(object sender, EventArgs e)
         {
             int groupId = Convert.ToInt32(((Button)sender).Tag);
@@ -149,7 +152,7 @@ namespace TripConnect
                 "Left Group", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
-       
+        // label design
         private Label CreateLabel(string text, int y)
         {
             return new Label
@@ -161,6 +164,7 @@ namespace TripConnect
             };
         }
 
+        // title desgin
         private Label CreateTitle(string text, int y)
         {
             return new Label
@@ -171,6 +175,7 @@ namespace TripConnect
                 Font = new Font("Modern No. 20", 16, FontStyle.Bold)
             };
         }
+        // back button
         private void button4_Click(object sender, EventArgs e)
         {
             this.Hide();

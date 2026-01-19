@@ -24,6 +24,7 @@ namespace TripConnect
             UserRole = role;
         }
 
+        // back button
         private void button4_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -45,6 +46,7 @@ namespace TripConnect
             LoadFinishedTrips();
         }
 
+        // load finished trips 
         private void LoadFinishedTrips()
         {
             using (SqlConnection con = new SqlConnection(connectionString))
@@ -81,6 +83,7 @@ namespace TripConnect
             }
         }
 
+        // create card and design
         private Panel CreateTripNotesCard(SqlDataReader reader)
         {
             Panel panel = new Panel();
@@ -127,6 +130,7 @@ namespace TripConnect
             return panel;
         }
 
+        // load notes
         private void LoadNotes(int groupId, Panel notesPanel)
         {
             int y = 0;

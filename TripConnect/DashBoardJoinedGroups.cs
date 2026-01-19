@@ -54,6 +54,7 @@ namespace TripConnect
 
         }
 
+        // load jonied gorups
         private void LoadTourGroups(string query)
         {
             flowLayoutPanel1.Controls.Clear();
@@ -85,6 +86,7 @@ namespace TripConnect
             };
         }
 
+        // card design
         private Panel CreatePostCard(SqlDataReader reader)
         {
             Panel panel = new Panel();
@@ -132,6 +134,7 @@ namespace TripConnect
             return panel;
         }
 
+        // leave group guide
         private void LeaveGroup_Click(object sender, EventArgs e)
         {
             Button btn = sender as Button;
@@ -166,7 +169,8 @@ namespace TripConnect
             }
         }
 
-
+        
+        // back button
         private void button4_Click(object sender, EventArgs e)
         {
             this.Hide();

@@ -25,10 +25,10 @@ namespace TripConnect
             UserRole = role;
             LoadDetails();
         }
+        // load user details
         private void LoadDetails()
         {
             string query = "SELECT UserName, Email, PhoneNumber, Password, Role, EmergencyContact  FROM Users WHERE UserId = @UserId";
-            //   string query = "INSERT INTO Users (UserName, Email, PhoneNumber,Password,Role,EmergencyContact) VALUES (@UserName, @Email, @PhoneNumber, @Password, @Role, @EmergencyContact)";
 
 
             using (SqlConnection connection = new SqlConnection(connectionString))
@@ -73,19 +73,19 @@ namespace TripConnect
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            if (UserRole == "Guide")
+            if (UserRole == "Guide")  // hide button for guide
             {
                 button5.Visible = false;
                 button6.Visible = false;
                 button7.Visible = false;
             }
-            if (UserRole == "Tourist")
+            if (UserRole == "Tourist")  // hide button for tourist
             {
                 button8.Visible = false;
                 button9.Visible = false;
                 button10.Visible = false;
             }
-            if(UserRole == "Admin")
+            if(UserRole == "Admin")  // hide button for  amdin
             {
                 button5.Visible = false;
                 button6.Visible = false;
@@ -119,7 +119,7 @@ namespace TripConnect
             }
         }
 
-        // myGroups button
+        // myGroups button dash board
         private void button5_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -128,7 +128,7 @@ namespace TripConnect
             d1.Show();
         }
 
-        // updtae
+        // updtae detasil
         private void button2_Click(object sender, EventArgs e)
         {
             string userName = textBox1.Text.Trim();
@@ -157,7 +157,7 @@ namespace TripConnect
             }
 
             string query = "UPDATE Users SET UserName = @UserName, Email = @Email, PhoneNumber = @PhoneNumber, Password = @Password, Role = @Role, EmergencyContact = @EmergencyContact WHERE UserId = @UserId";
-            //  string query = "UPDATE InfoSignUp SET Name = @Name, Age = @Age, Address = @Address WHERE Id = @Id";
+       
 
             using (SqlConnection connection = new SqlConnection(connectionString))
 
@@ -207,6 +207,7 @@ namespace TripConnect
 
         }
 
+        // delte profile button
         private void button3_Click(object sender, EventArgs e)
         {
         
@@ -314,7 +315,7 @@ namespace TripConnect
             }
         }
 
-        // Joined Groups
+        // Joined Groups dashboard
         private void button6_Click(object sender, EventArgs e)
         {
             this.Hide();

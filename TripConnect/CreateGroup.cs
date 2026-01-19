@@ -24,6 +24,7 @@ namespace TripConnect
             this.UserRole = role;
         }
 
+        // create tour group
         private void button1_Click(object sender, EventArgs e)
         {
             string connectionString = "data source=DESKTOP-BHNO9D6; database=TripConnectDB; integrated security=SSPI";
@@ -62,14 +63,11 @@ namespace TripConnect
 
                     command.Parameters.AddWithValue("@BudgetPerPerson", BudgetPerPerson);
 
-                    // command.Parameters.AddWithValue("@TravelDate", TravelDate);
 
                     command.Parameters.Add("@TravelDate", SqlDbType.Date).Value = dateTimePicker1.Value.Date;
 
 
                     command.Parameters.AddWithValue("@Status", Status);
-
-                 //   command.Parameters.AddWithValue("@GuideId", null);
 
                     command.Parameters.AddWithValue("@CreatedBy", UserId);
 
@@ -101,6 +99,7 @@ namespace TripConnect
 
         }
 
+        // reset text box
         private void ResetForm()
         {
             // Clear text fields
@@ -115,6 +114,7 @@ namespace TripConnect
             dateTimePicker1.Value = DateTime.Today;
         }
 
+        // back button
         private void button4_Click(object sender, EventArgs e)
         {
             this.Hide();

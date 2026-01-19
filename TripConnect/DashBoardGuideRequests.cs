@@ -29,6 +29,7 @@ namespace TripConnect
             LoadGuideRequests();
         }
 
+        // load guide requests
         private void LoadGuideRequests()
         {
             flowLayoutPanel1.Controls.Clear();
@@ -60,6 +61,7 @@ namespace TripConnect
             }
         }
 
+        // card design
         private Panel CreateGuideCard(SqlDataReader reader)
         {
             Panel panel = new Panel();
@@ -122,6 +124,7 @@ namespace TripConnect
             return panel;
         }
 
+        // accept guide request as tourist
         private void AcceptGuide_Click(object sender, EventArgs e)
         {
             Button btn = sender as Button;
@@ -154,6 +157,7 @@ namespace TripConnect
             LoadGuideRequests();
         }
 
+        // remove guide from group
         private void RemoveGuide_Click(object sender, EventArgs e)
         {
             Button btn = sender as Button;
@@ -183,6 +187,7 @@ namespace TripConnect
             LoadGuideRequests();
         }
 
+        // check guide is assigned or not
         private bool IsGuideAlreadyAssigned()
         {
             using (SqlConnection con = new SqlConnection(connectionString))
@@ -198,6 +203,7 @@ namespace TripConnect
             }
         }
 
+        // label design
         private Label CreateLabel(string text, int y)
         {
             return new Label()
@@ -209,6 +215,7 @@ namespace TripConnect
             };
         }
 
+        // back button
 
         private void button4_Click(object sender, EventArgs e)
         {

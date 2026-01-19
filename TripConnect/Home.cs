@@ -21,6 +21,7 @@ namespace TripConnect
             this.UserId = userId;
             this.UserRole = role;
         }
+        // open tourist spot page
         private void button1_Click(object sender, EventArgs e)
         {
            this.Hide();
@@ -28,6 +29,7 @@ namespace TripConnect
             t1.Show();
         }
 
+        // check user role hide this button for tourist
         private void Home_Load(object sender, EventArgs e)
         {
             if (UserRole == "Guide")
@@ -37,6 +39,7 @@ namespace TripConnect
             }
         }
 
+        // open Tourist group page
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -44,6 +47,7 @@ namespace TripConnect
             t1.Show();
         }
 
+        // open my profile page
         private void button3_Click(object sender, EventArgs e)
         {
             this.Hide();    
@@ -51,16 +55,16 @@ namespace TripConnect
             p1.Show();  
         }
 
+        // open create group page
         private void button4_Click(object sender, EventArgs e)
         {
             this.Hide();
-            /*  TG1 t1 = new TG1(UserId, UserRole);
-             t1.Show();*/
             CreateGroup c1 = new CreateGroup(UserId, UserRole);
             c1.Show();
 
         }
 
+        // open trip notes page
         private void button5_Click(object sender, EventArgs e)
         {
             this.Hide();

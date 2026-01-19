@@ -116,6 +116,7 @@ namespace TripConnect
             // by mistake
         }
 
+        // add tourist spot as admin
         private void button3_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -123,6 +124,7 @@ namespace TripConnect
             t1.Show();
         }
 
+        // show this button only for admin
         private void TouristSpots_Load(object sender, EventArgs e)
         {
             if (UserRole != "Admin")
@@ -131,7 +133,7 @@ namespace TripConnect
                 button4.Visible = false;
             }
         }
-
+        // admin select row and delelte tourits spots
         private void button4_Click(object sender, EventArgs e)
         {
             // Check if a row is selected
@@ -177,7 +179,7 @@ namespace TripConnect
 
         }
 
-        // Back Button
+        // Back Button 
         private void button2_Click_1(object sender, EventArgs e)
         {
             this.Hide();

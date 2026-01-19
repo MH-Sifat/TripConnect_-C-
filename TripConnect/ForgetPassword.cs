@@ -22,9 +22,10 @@ namespace TripConnect
 
         private void ForgetPassword_Load(object sender, EventArgs e)
         {
-
+            // by mistake
         }
 
+        // save new password
         private void button1_Click(object sender, EventArgs e)
         {
             string email = textBox1.Text.Trim();
@@ -80,6 +81,7 @@ namespace TripConnect
             this.Close();
         }
 
+        // hide and show password
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBox1.Checked)

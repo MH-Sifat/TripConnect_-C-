@@ -25,6 +25,7 @@ namespace TripConnect
             UserRole = role;
         }
 
+        // load Finished trip of guide
         private void LoadFinishedTrips()
         {
             using (SqlConnection con = new SqlConnection(connectionString))
@@ -65,7 +66,7 @@ namespace TripConnect
         }
 
    
-
+        // back button
         private void button4_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -73,6 +74,7 @@ namespace TripConnect
             p1.Show();
         }
 
+        // data grid view design
         private void GuideDashBoardFinishedTrip_Load(object sender, EventArgs e)
         {
             LoadFinishedTrips();

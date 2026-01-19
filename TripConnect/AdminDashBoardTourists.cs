@@ -25,6 +25,7 @@ namespace TripConnect
             LoadTourists();
         }
 
+        // load tourist
         private void LoadTourists()
         {
             string query = @"SELECT 
@@ -55,7 +56,7 @@ namespace TripConnect
             }
         }
 
-        // delete user
+        // Back button
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -70,6 +71,7 @@ namespace TripConnect
 
         }
 
+        // delete user 
         private void button4_Click_1(object sender, EventArgs e)
         {
             if (dataGridView1.CurrentRow == null)
@@ -165,7 +167,7 @@ namespace TripConnect
 
         }
 
-        // Helper method (clean + reusable)
+        // Helper method delete
         private void Exec(SqlConnection con, SqlTransaction tran, string sql, int uid)
         {
             using (SqlCommand cmd = new SqlCommand(sql, con, tran))
